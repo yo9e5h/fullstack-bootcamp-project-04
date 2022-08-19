@@ -1,0 +1,82 @@
+body {
+  font-family: Poppins, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+img[alt="brand-logo"] {
+  height: 3rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 0 24rem 0 0;
+}
+
+.list-item {
+  color: #b3b3b3;
+  list-style-type: none;
+  padding: 0 1rem;
+}
+
+.list-item:hover {
+  color: #000;
+}
+
+.nav-button {
+  padding: 1rem 2rem;
+  background-color: #5955b3;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 2rem;
+}
+
+.heading-text {
+  font-size: 4rem;
+  color: #3c2e60;
+  font-weight: 600;
+  padding-top: 2rem;
+  line-height: 120%;
+  letter-spacing: 0.1rem;
+}
+
+.heading-text span {
+  color: #5955b3;
+}
+
+.description {
+  font-size: 1rem;
+  color: #828282;
+  padding: 1rem 8rem 0 0;
+  word-break: break-word;
+}
+
+.btn {
+  padding: 1.5rem 3rem;
+  background-color: #5955b3;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1.15rem;
+  margin-top: 4rem;
+}
